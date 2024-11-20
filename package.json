@@ -1,5 +1,16 @@
 {
   "dependencies": {
     "express": "^4.21.1"
-  }
+  },
+  "name": "xuco",
+  "version": "1.0.0",
+  "description": "hello world em node de Linda Caroly",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }

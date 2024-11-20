@@ -1,4 +1,4 @@
-FROM node:18.16.0-alpine3.17
+FROM node:22.11.0-slim
 RUN mkdir -p /opt/app
 COPY . /opt/app
 WORKDIR /opt/app

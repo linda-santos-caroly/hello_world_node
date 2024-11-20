@@ -12,5 +12,9 @@ app.get('/hello_world', (req,res)=>{
 });
 
 app.get('/',(req,res) => {
-    res.sendFile(path + 'index.html')
+    res.sendFile(path + 'index.html');
+});
+
+app.get('/health',(req,res)=>{
+    res.send('ok');
 });
